@@ -41,7 +41,23 @@ $(function(){
         responsive:true,
         invertHoverEffect:false
     });
+
+    $('.features_slider').bxSlider({
+		auto: false,
+		displaySlideQty: 5,
+		moveSlideQty: 1,
+    	speed : 1000
+	});
+	$('.intro_slider').bxSlider({
+		auto: false,
+		controls : false,
+		mode: 'fade',
+		pager: true
+	});	
+    
 })
+
+
 </script>
 </head>
 <body>
@@ -116,7 +132,7 @@ $(function(){
  <!-- text bar2 -->
  <div class="text_bar2">
   <div class="wraper">
-   <h2>La integración acertada de las TIC en las empresas puede garantizar una competitividad continua y sostenible.<span>Aqui va un texto.</span></h2>
+   <h2>La integración acertada de las TIC en las empresas garantiza una competitividad continua y sostenible.<span>Aqui va un texto.</span></h2>
   <!-- <a class="buy btn_l" href="#">Buy Construct!</a>-->
   </div>
  </div>
@@ -305,24 +321,26 @@ $(function(){
    <ul>
     <li>
      <div class="bwWrapper"><a href="#"><img src="images/home_page_3_feature_circles/feature_1.png" alt="" /></a></div>
-     <h4>Superb Design Options</h4>
+     <h4>TALENTO</h4>
      <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens etrsaters  tum aecenas faucib sadips amets.</p>
     </li>
     <li>
      <div class="bwWrapper"><a href="#"><img src="images/home_page_3_feature_circles/feature_2.png" alt="" /></a></div>
-     <h4>Amazing Flexibility</h4>
+     <h4>CALIDAD</h4>
      <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens etrsaters  tum aecenas faucib sadips amets.</p>
     </li>
     <li>
      <div class="bwWrapper"><a href="#"><img src="images/home_page_3_feature_circles/feature_3.png" alt="" /></a></div>
-     <h4>Life Saving Support</h4>
+     <h4>VALOR AGREGADO</h4>
      <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens etrsaters  tum aecenas faucib sadips amets.</p>
     </li>
    </ul>
   </div>
   <!-- /bc_list -->
+
+
   <!-- why choose -->
-  <div class="why_choose">
+  <!--<div class="why_choose">
    <h4>¿Por qué elegir a TicFactor?  Te lo diremos!</h4>
    <ul>
     <li>Talento.</li>
@@ -331,10 +349,12 @@ $(function(){
     <li>Trabajamos para ser mejores día a día.</li>
     <li>Nuestros clientes nos Respaldan.</li>
    </ul>
-  </div>
+  </div>-->
   <!-- /why choose -->
+
+
   <!-- features2_block -->
-  <div class="features2_block features3_block">
+ <!-- <div class="features2_block features3_block">
    <ul>
     <li class="design">
      <a class="circle_link" href="#">&nbsp;</a>
@@ -361,7 +381,7 @@ $(function(){
      <p>Lid est laborum dolos rumes fustsirs sit untras. Et harums ser quidem sit rerums facilis est dolores uni nemis sad untras voluptas uners sits amets.  </p>
     </li>
    </ul>
-  </div>
+  </div>-->
   <!-- /features2_block -->
   <!-- client list -->
   <div class="featured_list client_list">
@@ -377,6 +397,7 @@ $(function(){
    </ul>
    </div>
   </div>
+
   <!-- /client list -->
  </div>
 </div>

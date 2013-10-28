@@ -518,8 +518,8 @@ body.index_v2 .copyright .top, body.index_v2 .copyright .top:visited {right:30px
 /* Services page */
 	/* services option */
 .services_option h4, .services_option2 h4, .services_option4 h4 {margin:0 0 25px 0;padding:10px 0;border-bottom:1px solid #e7e6e6;}
-.services_option .left_list {float:left;width:450px;padding:0 0 90px 0;}
-.services_option .left_list li {border:none;width:225px;padding:10px 0 0 0;}
+.services_option .left_list {float:left;width:550px;padding:0 0 90px 0;}
+.services_option .left_list li {border:none;width:275px;padding:10px 0 0 0;}
 .services_option .left_list li h4 {padding:10px 0 0 65px;margin:0;border:none;}
 .services_option .left_list li:hover h4 {color:#ef0000;}
 .services_option .left_list li h4 + p {text-align:left;padding-left:65px;}
@@ -527,7 +527,7 @@ body.index_v2 .copyright .top, body.index_v2 .copyright .top:visited {right:30px
 .services_option .left_list li .circle {left:0;}
 .services_option .left_list li .circle_link {left:0;}
 .services_option .left_list li:after {left:-10px;}
-.services_option .right_desc {float:right;width:480px;padding:20px 0 90px 0;}
+.services_option .right_desc {float:right;width:380px;padding:20px 0 90px 0;}
 .services_option .right_desc p {padding-bottom:15px;}
 .services_option .right_desc .bwWrapper {float:left;border:5px solid #f6f3f3;margin-right:27px;font-size:0;line-height:0;padding:0;}
 .services_option .right_desc ul {float:left;width:230px;padding:0;}
